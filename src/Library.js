@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const GameLibrary = () => {
-    const [games, setGames] = useState([
+     const [games, setGames] = useState([
         { id: 1, title: 'Game 1', genre: 'Action' },
         { id: 2, title: 'Game 2', genre: 'Adventure' },
         { id: 3, title: 'Game 3', genre: 'Strategy' },
